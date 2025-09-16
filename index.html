@@ -11,33 +11,36 @@
 <body>
     <div class="container">
         <div class="left">
-            <Label>Full Name</Label>
-            <input type="text" placeholder="">
+        <form action="method">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" placeholder="">
             
-
         
-            <label>EMAIL</label>
-            <input type="email" placeholder="Your Email">
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" placeholder="Your Email">
             
     
             
-            <label> MESSAGE REGARDING</label>
-            <input type="text" placeholder="">
+            <label for="subject"> MESSAGE REGARDING</label>
+            <input type="text" id="subject" placeholder="">
             
              
             
-            <Label>MESSAGE</Label>
-            <textarea rows="3" placeholder="Your Message"></textarea>
-            
+            <label for="message">MESSAGE</label>
+            <textarea id="message" rows="3" placeholder="Your Message"></textarea>
+    
 
-            <button class="send-button">SEND MESSAGE</button>
-            </div>
+            <button type="submit" class="send-button">SEND MESSAGE</button>
+
+        </form>
+        </div>
+
             <div class="right">
                 <img src="images/hiclipart 2.png" alt="yellow duck">
             </div>
-            </div>  
-            </body>
-            </html>
+        </div>  
+    </body>
+</html>
 
 
 
